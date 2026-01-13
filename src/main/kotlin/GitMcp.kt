@@ -30,6 +30,7 @@ fun configureGitMcpServer(): Server {
         description = """
             Get the complete status of a git repository including current branch,
             staged files, unstaged changes, untracked files, and full unified diff.
+            Be sure to include the name of the current branch in the response.
             """
             .trimIndent(),
         inputSchema = ToolSchema(
