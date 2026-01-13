@@ -7,7 +7,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Kotlin-based MCP (Model Context Protocol) server implementation built with Ktor. It provides an HTTP server that integrates with the MCP Kotlin SDK to expose Git-related tools through the MCP protocol. The server currently implements a `git_status` tool that provides comprehensive repository status information including branch name, staged/unstaged changes, untracked files, and unified diffs.
+This is a Kotlin-based MCP (Model Context Protocol) server implementation built with Ktor. 
+It provides an HTTP server that integrates with the MCP Kotlin SDK to expose Git-related tools through the MCP protocol. 
+The server currently implements a `git_status` tool that provides comprehensive repository status information 
+including branch name, staged/unstaged changes, untracked files, and unified diffs.
 
 ## Commands
 
